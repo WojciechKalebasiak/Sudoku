@@ -1,0 +1,13 @@
+.victory-screen {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+span {
+    color: #F2116C;
+}
+.victory-header {
+    color:#742365;
+    font-size: 3.5em;
+    font-family: 'Gloria Hallelujah', cursive;
+}

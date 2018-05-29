@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Architects+Daughter');
+.app {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.sudoku-header {
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5em;
+    color:#ED616F;
+}
+.or {
+    color:#ED616F;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.5em;
+    margin: 0;
+}
+button {
+    font-size: 1.25em;
+    background-color: transparent;
+    border: 3px solid #742365;
+    padding: 15px 25px;
+    color: #742365;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    cursor: pointer;
+}

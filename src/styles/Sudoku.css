@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Architects+Daughter');
+.board {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tip {
+    font-size: 1em;
+    color:#5f6268;
+     font-family: 'Architects Daughter', cursive;
+}
+.sudoku-title {
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    color:#ED616F;
+}
+.game-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.save-undo-buttons {
+    color:#E23D75;
+    display: flex;
+    justify-content: space-around;
+}
+.save-button {
+    height: 70px;
+    align-self: flex-end;
+    border-color: #E23D75;
+    color: #E23D75;
+    font-size: 1.25em;
+}
+.wrong-answer {
+    margin-top: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+}
+.undo-button {
+    margin-top: 50px;
+    border-color: #E23D75;
+     color:#E23D75;
+    padding: 20px 40px;
+}

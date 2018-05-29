@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.levelsList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.levelsList:hover {
+    cursor: pointer;
+}
+.level-header {
+    color:#742365;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.5em;
+}
+.level {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    border: 3px solid #5F0D3B;
+}
+.levelbar {
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.easy .levelbar {
+    width: 25%;
+    background-color:#22b74d;
+}
+.medium .levelbar {
+    width: 35%;
+    background-color: #efef02;
+}
+.hard .levelbar {
+    width: 45%;
+    background-color: #f4b804;
+}
+.veryHard .levelbar {
+    width: 55%;
+    background-color: #f47404;
+}
+.insane .levelbar {
+    width: 70%;
+    background-color: #f43004;
+}
+.inhuman .levelbar {
+    width: 85%;
+    background-color: #b50101;
+}
